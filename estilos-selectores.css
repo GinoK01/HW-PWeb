@@ -1,0 +1,29 @@
+/* 1. Selectores simples (conjunto) */
+h1, p, .destacado {
+  color: blue;
+}
+
+/* 2. Selector separado por comas */
+#principal, .secundario {
+  background-color: yellow;
+}
+
+/* 3. Selector separado (individual) */
+a {
+  text-decoration: none;
+}
+
+/* 4. Combinación: Descendiente */
+nav ul li {
+  list-style: none;
+}
+
+/* 5. Combinación: Hijo directo */
+section > h2 {
+  font-size: 2em;
+}
+
+/* 6. Combinación: Selector adyacente */
+h3 + p {
+  margin-top: 0;
+}
